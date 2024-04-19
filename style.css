@@ -148,3 +148,35 @@ h3{
     
     
 }
+@media screen and (min-width: 1024px){
+    h1{
+        font-size:larger;
+    }
+    .perfil{
+        max-width: 100px;
+
+    }
+    .caixa-botoes{
+        margin-top: auto;
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        flex-direction: column;
+        width: 100vw;
+    
+    }
+    .botao{
+        background-color:#1B4C68 ;
+        border-radius: 23px;
+        margin: 2%;
+        display: flex;
+        align-items: center;
+        width: 40vw;
+        height: auto;
+        
+    }
+    
+    
+
+
+}
